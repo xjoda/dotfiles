@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline title="News" text="News" description="News" type="folder" id="donouwi" sortColumn="time" expanded="true">
+      <outline title="Ars Technica" text="Ars Technica" description="Ars Technica" type="rss" id="wrskrin" sortColumn="time" xmlUrl="http://feeds.arstechnica.com/arstechnica/index" htmlUrl="http://arstechnica.com" updateInterval="-1" collapsed="true"/>
+      <outline title="Slashdot" text="Slashdot" description="Slashdot" type="rss" id="slrjbov" sortColumn="time" xmlUrl="http://slashdot.org/slashdot.rss" htmlUrl="https://slashdot.org/" updateInterval="-1" collapsed="true"/>
+      <outline title="Lifehacker" text="Lifehacker" description="Lifehacker" type="rss" id="cewbsjk" sortColumn="time" xmlUrl="http://feeds.gawker.com/lifehacker/full" htmlUrl="http://lifehacker.com" updateInterval="-1" collapsed="true"/>
+      <outline title="ReadWrite" text="ReadWrite" description="ReadWrite" type="rss" id="vsdwfhe" sortColumn="time" xmlUrl="http://readwrite.com/feed/" htmlUrl="http://readwrite.com" updateInterval="-1" collapsed="true"/>
+      <outline title="xkcd" text="xkcd" description="xkcd" type="atom" id="klofqxd" sortColumn="time" xmlUrl="http://xkcd.com/atom.xml" htmlUrl="http://xkcd.com/" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="Podcasts" text="Podcasts" description="Podcasts" type="folder" id="hdwnvrx" sortColumn="time" viewMode="2" expanded="true">
+      <outline title="Linux Action Show" text="Linux Action Show" description="Linux Action Show" type="rss" id="phrhsgx" sortColumn="time" viewMode="2" xmlUrl="http://feeds2.feedburner.com/TheLinuxActionShowOGG" htmlUrl="http://www.jupiterbroadcasting.com" updateInterval="-1" collapsed="true"/>
+      <outline title="Linux Voice Podcast" text="Linux Voice Podcast" description="Linux Voice Podcast" type="rss" id="imejvlg" sortColumn="time" viewMode="2" xmlUrl="http://www.linuxvoice.com/podcast_mp3.rss" htmlUrl="http://www.linuxvoice.com/podcast_mp3.rss" updateInterval="-1" collapsed="true"/>
+      <outline title="Co-Optional" text="Co-Optional" description="Co-Optional" type="atom" id="njygfyq" sortColumn="time" viewMode="2" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLFE010B0EEA9E5F06" htmlUrl="" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="Reddit" text="Reddit" description="Reddit" type="folder" id="umtlmau" sortColumn="time" expanded="true">
+      <outline title="Open Directories" text="Open Directories" description="Open Directories" type="atom" id="nmrvjgg" sortColumn="time" xmlUrl="https://www.reddit.com/r/opendirectories/.rss" htmlUrl="https://www.reddit.com/r/opendirectories/" updateInterval="-1" collapsed="true"/>
+      <outline title="linux" text="linux" description="linux" type="atom" id="bpfdufq" sortColumn="time" xmlUrl="https://www.reddit.com/r/linux/top/.rss" htmlUrl="https://www.reddit.com/r/linux/top/" updateInterval="-1" collapsed="true"/>
+      <outline title="Build a PC Sales" text="Build a PC Sales" description="Build a PC Sales" type="atom" id="xumfpou" sortColumn="time" viewMode="2" xmlUrl="https://www.reddit.com/r/buildapcsales/.rss" htmlUrl="https://www.reddit.com/r/buildapcsales/" updateInterval="-1" collapsed="true"/>
+      <outline title="GameDeals" text="GameDeals" description="GameDeals" type="atom" id="nckmtpm" sortColumn="time" viewMode="2" xmlUrl="https://www.reddit.com/r/GameDeals/.rss" htmlUrl="https://www.reddit.com/r/GameDeals/" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="Unread" text="Unread" description="Unread" type="vfolder" id="ujlyevx" sortColumn="time" matchType="any" collapsed="true">
+      <outline type="rule" text="Read status" rule="unread" value="" additive="true"/>
+    </outline>
+    <outline title="Important" text="Important" description="Important" type="vfolder" id="dsdxaqe" sortColumn="time" matchType="any" collapsed="true">
+      <outline type="rule" text="Flag status" rule="flagged" value="" additive="true"/>
+    </outline>
+  </body>
+</opml>
