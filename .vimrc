@@ -1,4 +1,4 @@
-colorscheme desert
+colorscheme wombat256 
 syntax enable
 set tabstop=4
 set softtabstop=4
